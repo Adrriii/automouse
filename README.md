@@ -6,7 +6,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6.svg)](#)
 [![Made with Rust](https://img.shields.io/badge/made%20with-Rust-CE422B.svg?logo=rust&logoColor=white)](https://www.rust-lang.org)
-[![Release](https://img.shields.io/badge/release-v0.1.0-7A52EB.svg)](#installation)
+[![Release](https://img.shields.io/badge/release-v0.1.1-7A52EB.svg)](#installation)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 **A tiny, fast, no-nonsense mouse automation tool for Windows.**
@@ -57,8 +57,8 @@ Every upload publishes SHA-256 checksums, so you can confirm the file you got is
 <!-- checksums:start -->
 | File | SHA-256 |
 |---|---|
-| `AutoMouse-Setup.exe` | `b029c77e4dedf262a3f1059965688aedf2889a546bff28269b3a9b1559d6d71c` |
-| `AutoMouse.exe` | `6eb747ad4b21534d4f7c60268813255883fd6f3889dd33b7344b9f53bd910612` |
+| `AutoMouse-Setup.exe` | `a3c985cafd47f9c5022c1cbce20242970c6474d2cb02f0ac35cec89da55a9ea7` |
+| `AutoMouse.exe` | `18f74719f0d508ac52bc0100e5ea16d7942949d54e4ecab5c178ae0dbf4cd5bb` |
 <!-- checksums:end -->
 
 Check a download with the [`verify.ps1`](verify.ps1) script from this repo. It fetches [SHA256SUMS.txt](https://rhythmgamers.net/cdn/SHA256SUMS.txt), hashes whatever it finds, and tells you whether each file matches:

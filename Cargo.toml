@@ -1,6 +1,6 @@
 [package]
 name = "automouse"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Adrien Boitelle"]
 description = "A tiny, fast mouse automation tool for Windows: autoclicker and button holder with a global hotkey."
