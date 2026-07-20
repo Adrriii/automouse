@@ -2,8 +2,13 @@
 ; Build with: installer\build.ps1  (or ISCC.exe installer\automouse.iss)
 
 #define AppName "AutoMouse"
-#define AppVersion "0.1.0"
 #define AppExe "automouse.exe"
+
+; Version comes from Cargo.toml via build.ps1 (-DAppVersion=...). The fallback
+; only applies when running ISCC by hand.
+#ifndef AppVersion
+  #define AppVersion "0.0.0"
+#endif
 
 [Setup]
 ; Identifies the app to Windows. Generated with Guid.NewGuid() (RFC 4122 v4).
