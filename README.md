@@ -57,7 +57,7 @@ Every upload publishes SHA-256 checksums, so you can confirm the file you got is
 <!-- checksums:start -->
 | File | SHA-256 |
 |---|---|
-| `AutoMouse-Setup.exe` | `dfc0927de8726703a464a7cba9119f5e852e6b3987a7fbe991f7db965f2df888` |
+| `AutoMouse-Setup.exe` | `b029c77e4dedf262a3f1059965688aedf2889a546bff28269b3a9b1559d6d71c` |
 | `AutoMouse.exe` | `6eb747ad4b21534d4f7c60268813255883fd6f3889dd33b7344b9f53bd910612` |
 <!-- checksums:end -->
 
