@@ -117,6 +117,10 @@ For code changes, please keep it simple: run `cargo fmt`, make sure `cargo clipp
 
 AutoMouse is a general-purpose input tool. Plenty of online games and services forbid input automation: using it there may get your account banned. Please check the rules of whatever you're using it with. You're responsible for how you use it.
 
+## AI disclosure
+
+This project was developed with [Claude](https://claude.com/claude-code) (Opus 4.8 and Fable 5) writing most of the code, directed and reviewed by a human. Stated here so you know what you're running and what you'd be reviewing in a pull request.
+
 ## License
 
 **GNU General Public License v3.0** — Copyright © 2026 Adrien Boitelle
