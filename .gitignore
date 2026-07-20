@@ -1,0 +1,5 @@
+target/
+dist/
+
+# Local deployment settings (see .env.example)
+.env

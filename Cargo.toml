@@ -1,0 +1,26 @@
+[package]
+name = "automouse"
+version = "0.1.0"
+edition = "2021"
+authors = ["Adrien Boitelle"]
+description = "A tiny, fast mouse automation tool for Windows: autoclicker and button holder with a global hotkey."
+license = "GPL-3.0-or-later"
+repository = "https://github.com/Adrriii/automouse"
+readme = "README.md"
+
+[dependencies]
+eframe = "0.31"
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_Media",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_UI_WindowsAndMessaging",
+] }
+
+[build-dependencies]
+winresource = "0.1"
+
+[profile.release]
+opt-level = "s"
+lto = true
+strip = true

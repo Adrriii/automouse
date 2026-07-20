@@ -1,0 +1,8 @@
+# Normalize all text files to LF in the repo and in working copies.
+* text=auto eol=lf
+
+# Binary assets: never touch.
+*.png binary
+*.ico binary
+*.rgba binary
+*.exe binary
